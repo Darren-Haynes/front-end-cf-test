@@ -7,3 +7,44 @@ html {
 *:after {
   box-sizing: inherit;
 }
+
+body {
+  background-color: #707070;
+}
+
+main, 
+footer {
+  margin: 0 auto;
+  width: 820px;
+}
+
+main {
+  background-color: #EAEAEA;
+}
+
+.listing-img,
+.listing-img > img,
+.text-box, 
+.blurb {
+  width: 400px;
+  height: 267px;
+}
+
+.listing-img {
+  margin: 10px 10px 10px 0;
+  float: left;
+}
+
+.text-box {
+  margin: 10px 0 10px 10px;
+  float: right;
+}
+
+.blurb {
+  background-color: #3A3A3A;
+  padding: 10px;
+}
+
+.clear-fix {
+  clear: both;
+}
