@@ -15,34 +15,99 @@ body {
 main, 
 footer {
   margin: 0 auto;
-  width: 820px;
+  width: 800px;
 }
+
+/*
+  ========================================
+  FONTS
+  ========================================
+*/
+
+body {
+  font-family: "Helvetica Light", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 19px;
+  line-height: 24px;
+  font-weight: 300;
+  color: #FFF;
+}
+
+h1 {
+  font-family: "Helvetica Light", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 28px;
+  font-weight: 300;
+}
+
+.more-lh {
+  line-height: 26px;
+}
+
+/*
+  ========================================
+  MAIN SECTION (Kitten Listings)
+  ========================================
+*/
 
 main {
   background-color: #EAEAEA;
+}
+
+.main-header {
+  position: relative;
+  text-align: center;
+  color: #000;
+  padding-top: 10px;
+  margin-bottom: 40px;
+}
+
+/* Underline header*/
+.main-header:before {
+  content: "";
+  position: absolute;
+  height: 1px;
+  left: 40.5%;
+  bottom: -15px;
+  width: 19%;
+  border-bottom: 1.5px solid #000;
 }
 
 .listing-img,
 .listing-img > img,
 .text-box, 
 .blurb {
-  width: 400px;
+  width: 390px;
   height: 267px;
 }
 
 .listing-img {
-  margin: 10px 10px 10px 0;
+  margin: 15px 10px 15px 0;
   float: left;
 }
 
 .text-box {
-  margin: 10px 0 10px 10px;
+  position: relative;
+  margin: 15px 0 15px 10px;
   float: right;
 }
 
 .blurb {
   background-color: #3A3A3A;
-  padding: 10px;
+  padding: 0.5px 16px 15px 16px;
+}
+
+.blurb > h1 {
+  padding-bottom: 10px;
+}
+
+/* Underline blurb heading */
+.blurb:before {
+  position: absolute;
+  content: "";
+  left: 15px;
+  bottom: 207px;
+  height: 1px;
+  width: 38%;
+  border-bottom: 1.5px solid #FFF;
 }
 
 .clear-fix {
