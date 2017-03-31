@@ -34,14 +34,101 @@ body {
 
 h1 {
   font-family: "Helvetica Light", Roboto, Helvetica, Arial, sans-serif;
-  font-size: 28px;
-  font-weight: 300;
+  font-size: 28px; font-weight: 300;
 }
 
 .more-lh {
   line-height: 26px;
 }
 
+
+.slides {
+  padding: 0;
+  width: 800px;
+  height: 420px;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+}
+
+.slides * {
+  user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+}
+
+.slides input { display: none; }
+
+.slide-container { display: block; }
+
+.slide {
+  top: 0;
+  opacity: 0;
+  width: 800px;
+  height: 480px;
+  display: block;
+  position: absolute;
+
+  transform: scale(0);
+
+  transition: all .7s ease-in-out;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+}
+
+input:checked + .slide-container .slide {
+  opacity: 1;
+
+  transform: scale(1);
+
+  transition: opacity 1s ease-in-out;
+}
+
+.nav-dots {
+	width: 100%;
+	bottom: 9px;
+	height: 11px;
+	display: block;
+	position: absolute;
+	text-align: center;
+}
+
+.nav-dots .nav-dot {
+	top: 30px;
+	width: 16px;
+	height: 16px;
+	margin: 0 3px;
+	position: relative;
+	border-radius: 100%;
+  border: 1px solid #FFF;
+	display: inline-block;
+
+}
+
+.nav-dots .nav-dot:hover {
+	cursor: pointer;
+	background-color: #FFF;
+}
+
+#img-1:checked ~ .nav-dots #img-dot-1,
+#img-2:checked ~ .nav-dots #img-dot-2,
+#img-3:checked ~ .nav-dots #img-dot-3,
+#img-4:checked ~ .nav-dots #img-dot-4,
+#img-5:checked ~ .nav-dots #img-dot-5,
+#img-6:checked ~ .nav-dots #img-dot-6 {
+  background: #FFF;
+}
+
+
+.slides:before {
+  
+}
 /*
   ========================================
   MAIN SECTION (Kitten Listings)
@@ -57,6 +144,7 @@ main {
   text-align: center;
   color: #000;
   padding-top: 10px;
+  margin-top: 60px;
   margin-bottom: 40px;
 }
 
