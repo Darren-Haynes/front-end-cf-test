@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
@@ -6,51 +7,92 @@
 	<title>Front-End-Test</title>
   <link rel="stylesheet" href="css/normalize.min.css">
 	<link rel="stylesheet" href="assets/stylesheets/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Droid+Sans:700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
 </head>
 
 <body>
   
-  <!-- Header -->
-  
+  <!-- HEADER -->
+ 
   <header>
+
+    <!-- Navigation -->
     <nav>
+      <ul>
+        <li id="focus"><a href="index.html" >HOME</a></li>
+        <li><a href="#">ABOUT</a></li>
+        <li><a href="#">CONTACT</a></li>
+      </ul>
     </nav>
+
+    <!-- Social icons -->
+    <div class="social">
+      <ul>
+        <li>
+          <a href="#">
+            <img src="assets/images/facebook.png" alt="facebook icon">
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="assets/images/twitter.png" alt="twitter icon" />
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="assets/images/instagram.png" alt="instagram icon" />
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="assets/images/linkedin.png" alt="linkedin icon" />
+          </a>
+        </li>
+      </ul>
+    </div>
   </header>
-  
+
+
   <!-- SLIDER -->
   <ul class="slides">
     <input type="radio" name="radio-btn" id="img-1" checked />
       <li class="slide-container">
         <div class="slide">
-          <img src="https://s19.postimg.org/wbjvr5lg3/top-kitten.jpg" />
+          <img src="assets/images/top-kitten.jpeg" alt="kittens in a baskets" />
+        </div>
+        <div class="overlay">
+          <h1>Cats in Baskets</h1>
+          <p>We've all heard about The Cat in the Hat, but what about cats in baskets? Well, I would never want to ignore those, so here is a little collection of some cats in baskets!</p>
+          <div class="slider-button">MORE</div>
         </div>
       </li>
 
     <input type="radio" name="radio-btn" id="img-2" />
       <li class="slide-container">
         <div class="slide">
-          <img src="https://s19.postimg.org/muyny9qz7/top-kitten-2.jpg" />
+          <img src="assets/images/top-kitten-2.jpeg" alt="kitten in the snow" />
         </div>
       </li>
 
     <input type="radio" name="radio-btn" id="img-3" />
       <li class="slide-container">
         <div class="slide">
-          <img src="https://s19.postimg.org/68h3p6y1f/test-kitten-3.jpg" />
+          <img src="assets/images/top-kitten-3.jpeg" alt="kitten next to a mirror" /> 
         </div>
       </li>
 
     <input type="radio" name="radio-btn" id="img-4" />
       <li class="slide-container">
         <div class="slide">
-          <img src="https://s19.postimg.org/t10450kwj/top-kitten-4.jpg" />
-        </div>                                                                                                                            </li>
+          <img src="assets/images/top-kitten-4.jpeg" alt="close up of the cutest kitten ever" /> 
+        </div> 
+      </li>
 
     <input type="radio" name="radio-btn" id="img-5" />
       <li class="slide-container">
         <div class="slide">
-          <img src="https://s19.postimg.org/uhbmn5ntf/top-kitten-5.jpg" />
+          <img src="assets/images/top-kitten-5.jpeg" alt="close up of kitten with very long whiskers" /> 
         </div>
 
       </li>
@@ -58,7 +100,7 @@
     <input type="radio" name="radio-btn" id="img-6" />
       <li class="slide-container">
         <div class="slide">
-          <img src="https://s19.postimg.org/k7e9l149f/top-kitten-6.jpg" />
+          <img src="assets/images/top-kitten-6.jpeg" alt="Extreme close up of white kitten" /> 
         </div>
       </li>
 
@@ -134,10 +176,10 @@
     </section>
   </main>
 
-  <!-- Footer -->
+  <!-- FOOTER -->
 
   <footer>
-    Copyright 2016 &copy; The Kitties, <a href="mailto:#" class="no-underline">kitty@kitty.cat</a>
+    Copyright 2016 &copy; The Kitties, <a href="mailto:#" >kitty@kitty.cat</a>
   </footer>
 
 </body>
