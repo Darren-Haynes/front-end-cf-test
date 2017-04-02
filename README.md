@@ -1,4 +1,4 @@
-#HTML / CSS Proficiency Test for Code Fellows Python 401 Course
+# HTML / CSS Proficiency Test for Code Fellows Python 401 Course
 
 For live version of this test website: https://front-end-cf-test.herokuapp.com/index.html
 
