@@ -11,6 +11,10 @@ html {
 a {
   list-style-type: none;
   text-decoration: none;
+}
+
+a, 
+button {
   cursor: pointer;
 }
 
@@ -282,6 +286,7 @@ input:checked + .slide-container .slide {
   left: 19%;
   width: 62%;
   background-color: #E00000;
+  color: #FFF;
   font: 600 18px/50px Helvetica, Arial, sans-serif;
   text-align: center;
 }
