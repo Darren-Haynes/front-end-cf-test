@@ -8,6 +8,12 @@ html {
   box-sizing: inherit;
 }
 
+a {
+  list-style-type: none;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 body {
   background-color: #707070;
   margin: 10px 0;
@@ -68,7 +74,6 @@ nav {
 }
 
 nav ul {
-  list-style-type: none;
   margin: 0;
   padding: 0;
   width: 100%;
@@ -91,7 +96,6 @@ nav ul li {
 
 nav li a {
   text-align: left;
-  text-decoration: none;
   color: #878787;
 }
 
@@ -134,7 +138,6 @@ nav li a:active {
 }
 
 .social ul {
-  list-style-type: none;
   margin: 0 0 0 155px;
   padding: 0;
   width: 100%;
@@ -371,7 +374,6 @@ footer {
 }
 
 footer a {
-  text-decoration: none;
   color: #FFF;
 }
 

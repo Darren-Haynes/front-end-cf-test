@@ -4,7 +4,7 @@ For live version of this test website: https://front-end-cf-test.herokuapp.com/i
 
 ### Slider
 
-I did not builder the slider from scratch for the index.html page. I modified a very cool slider by Avi Kohn: http://codepen.io/AMKohn/pen/EKJHf
+I did not build the slider from scratch for the index.html page. I modified a very cool slider by Avi Kohn: http://codepen.io/AMKohn/pen/EKJHf
 NOTE: I still need to fix the overlay on the slider (with the text and red button) - images 2-6 on the slider need their own overlay. Currently only the into slider image has the overlay.
 
 ### Menu text links
